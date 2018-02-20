@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tanfolyam.cpp" />
+    <ClCompile Include="bombcraters.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{90D88E56-375F-41FB-8FD3-52DB78F34635}</ProjectGuid>

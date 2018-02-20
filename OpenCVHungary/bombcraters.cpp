@@ -11,7 +11,7 @@ int main() {
 	snprintf(command, sizeof(command), "C:\\lastools\\bin\\las2dem -i craters.las -elevation -otif");
 	system(command);
 
-	/*Mat dtm = imread("craters.tif", -1);
+	Mat dtm = imread("craters.tif", -1);
 	if (!dtm.data) {
 		cout << "No input dtm" << endl;
 		return -1;
@@ -82,7 +82,7 @@ int main() {
 		circle(ref, mc[i], 0, color, 5, 0, 0);
 	}
 
-	imshow("9. Solution", ref);*/
+	imshow("9. Solution", ref);
 
 	waitKey(0);
 	return 0;
